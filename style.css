@@ -11,7 +11,7 @@ body{
 }
 .menu-bar{
     
-    background-color: rgb(154, 181, 181);
+    background-color: white;
     text-align: center;
 }
 .menu-bar ul{
@@ -25,9 +25,15 @@ body{
 }
 .menu-bar ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(17, 133, 228);
 }
 .active, .menu-bar ul li:hover{
     background-color: rgb(236, 165, 13);
+    border-radius: 10px;
+}
+.menu-bar ul img{
+    width: 80px;
+    height: 70px;
+    margin-top: 5px;
     border-radius: 10px;
 }
